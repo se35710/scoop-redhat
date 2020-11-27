@@ -3,15 +3,23 @@
     "description": "OpenShift Pipelines (TKN) is a Kubernetes-style CI/CD solution based on Tekton.",
     "license": "Apache-2.0",
     "version": "0.13.1",
-    "url": "https://mirror.openshift.com/pub/openshift-v4/clients/pipeline/0.13.1/tkn-windows-amd64-0.13.1.zip",
-    "hash": "db76a950513c80865c5d4189731ac8acee372dbe555b1c5c05f056ffef906641",
+    "architecture": {
+        "64bit": {
+            "url": "https://mirror.openshift.com/pub/openshift-v4/clients/pipeline/0.13.1/tkn-windows-amd64-0.13.1.zip",
+            "hash": "db76a950513c80865c5d4189731ac8acee372dbe555b1c5c05f056ffef906641"
+        }
+    },
     "bin": "tkn.exe",
     "checkver": {
         "url": "https://mirror.openshift.com/pub/openshift-v4/clients/pipeline/latest/",
         "regex": "tkn-windows-amd64-([\\d.]+)\\.zip"
     },
     "autoupdate": {
-        "url": "https://mirror.openshift.com/pub/openshift-v4/clients/pipeline/$version/tkn-windows-amd64-$version.zip",
+        "architecture": {
+            "64bit": {
+                "url": "https://mirror.openshift.com/pub/openshift-v4/clients/pipeline/$version/tkn-windows-amd64-$version.zip"
+            }
+        },
         "hash": {
             "url": "$baseurl/sha256sum.txt"
         }
