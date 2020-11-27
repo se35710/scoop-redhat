@@ -1,0 +1,20 @@
+{
+    "homepage": "https://www.openshift.com/learn/topics/pipelines",
+    "description": "Helm is a software package manager that simplifies deployment of applications and services to OpenShift Container Platform clusters.",
+    "license": "Apache-2.0",
+    "version": "3.3.4",
+    "url": "https://mirror.openshift.com/pub/openshift-v4/clients/helm/3.3.4/helm-windows-amd64.exe#/helm.exe",
+    "hash": "9e3640605f7cf81df02ddbc4bf5813f4f6e1c97e6eb39bf64f05f5fd3f2a4e6c",
+    "bin": "helm.exe",
+    "checkver": {
+        "url": "https://mirror.openshift.com/pub/openshift-v4/clients/helm/",
+        "regex": "<a href=\"([\\d.]+)/\">",
+        "reverse": true
+    },
+    "autoupdate": {
+        "url": "https://mirror.openshift.com/pub/openshift-v4/clients/helm/$version/helm-windows-amd64.exe#/helm.exe",
+        "hash": {
+            "url": "$baseurl/sha256sum.txt"
+        }
+    }
+}
