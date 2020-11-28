@@ -12,7 +12,7 @@
     "bin": "oc.exe",
     "checkver": {
         "github": "https://github.com/openshift/okd",
-        "regex": "openshift-client-windows-((?<release>[\\d.-]+)\\.okd-(?<date>[\\d-]+)-(?<commit>[\\d]+))\\.zip"
+        "regex": "openshift-client-windows-((?<release>[\\d.-]+)\\.okd-(?<date>[\\d-]+)-(?<time>[\\d]+))\\.zip"
     },
     "autoupdate": {
         "architecture": {

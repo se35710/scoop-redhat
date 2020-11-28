@@ -12,7 +12,7 @@
     "bin": "oc.exe",
     "checkver": {
         "url": "https://mirror.openshift.com/pub/openshift-v4/clients/ocp-dev-preview/latest/release.txt",
-        "regex": "Name:\\s+((?<release>[\\d.-]+).nightly-(?<date>[\\d-]+)-(?<commit>[\\d]+))"
+        "regex": "Name:\\s+((?<release>[\\d.-]+).nightly-(?<date>[\\d-]+)-(?<time>[\\d]+))"
     },
     "autoupdate": {
         "architecture": {
