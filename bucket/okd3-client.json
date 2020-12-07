@@ -2,11 +2,11 @@
     "homepage": "https://okd.io",
     "description": "OKD is the Community Distribution of Kubernetes that powers Red Hat OpenShift. This manifest installs the OKD OpenShift Client (OC).",
     "license": "Apache-2.0",
-    "version": "3.11.0-524-e566b4f",
+    "version": "3.11.0-527-8852839",
     "architecture": {
         "64bit": {
-            "url": "https://artifacts-openshift-release-3-11.svc.ci.openshift.org/zips/openshift-origin-client-tools-v3.11.0-e566b4f-524-windows.zip",
-            "hash": "6b32a2258c958c4fdf99bcd9117c43aa07a8f41aea5701be5150284ce45d0db7"
+            "url": "https://artifacts-openshift-release-3-11.svc.ci.openshift.org/zips/openshift-origin-client-tools-v3.11.0-8852839-527-windows.zip",
+            "hash": "d39a96968cf51b49caa6944efc6c85fbf5db2c242bc3dd86d573a96236b54031"
         }
     },
     "bin": "oc.exe",
