@@ -2,11 +2,11 @@
     "homepage": "https://odo.dev/",
     "description": "OpenShift Do (ODO) is a fast, iterative CLI for developers who write, build, and deploy applications on OpenShift.",
     "license": "Apache-2.0",
-    "version": "2.0.2",
+    "version": "2.0.3",
     "architecture": {
         "64bit": {
-            "url": "https://mirror.openshift.com/pub/openshift-v4/clients/odo/v2.0.2/odo-windows-amd64.exe#/odo.exe",
-            "hash": "3f9ec411eea335d2883f5d6aff5cf8a69b6992db15423284f9021b60c110afb3"
+            "url": "https://mirror.openshift.com/pub/openshift-v4/clients/odo/v2.0.3/odo-windows-amd64.exe#/odo.exe",
+            "hash": "27c0d76919081e0555f2705f6a5d2d512565e870c8342ca5b6cda978d7bd6d09"
         }
     },
     "bin": "odo.exe",
