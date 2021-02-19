@@ -2,11 +2,11 @@
     "homepage": "https://podman.io",
     "description": "Podman is a daemonless container engine for developing, managing, and running OCI Containers on your Linux System. This manifest installs the Podman remote client",
     "license": "Apache-2.0",
-    "version": "3.0.0",
+    "version": "3.0.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/containers/podman/releases/download/v3.0.0/podman-remote-release-windows.zip",
-            "hash": "ef0bbcd2e7cf060ae5c8859e3fb773881f5ac30ee660d8abf390c5c19dba0985"
+            "url": "https://github.com/containers/podman/releases/download/v3.0.1/podman-remote-release-windows.zip",
+            "hash": "71133cdcfcaffc3ff6781d0cdeacaf6f55cc8e2619f69927e89991dc71e4125d"
         }
     },
     "bin": "podman.exe",
