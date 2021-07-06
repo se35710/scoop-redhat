@@ -2,11 +2,11 @@
     "homepage": "https://www.openshift.com/",
     "description": "Red Hat OpenShift is a hybrid cloud, enterprise Kubernetes application platform, trusted by 2,000+ organizations. This manifest installs the OpenShift Operator Package Manager (OPM).",
     "license": "Apache-2.0",
-    "version": "4.9.0-0.nightly-2021-07-06-111218",
+    "version": "4.9.0-0.nightly-2021-07-06-133521",
     "architecture": {
         "64bit": {
-            "url": "https://mirror.openshift.com/pub/openshift-v4/clients/ocp-dev-preview/4.9.0-0.nightly-2021-07-06-111218/opm-windows-4.9.0-0.nightly-2021-07-06-111218.tar.gz",
-            "hash": "34f339ad85f1376a247b00d7c9f1726794f3b571ba759adc705d59fa95e61d48"
+            "url": "https://mirror.openshift.com/pub/openshift-v4/clients/ocp-dev-preview/4.9.0-0.nightly-2021-07-06-133521/opm-windows-4.9.0-0.nightly-2021-07-06-133521.tar.gz",
+            "hash": "6e260f34ea5a1b12a17a65c3a797f29bc520c9be345ee61d9c7cfacc70313d09"
         }
     },
     "bin": "opm.exe",
