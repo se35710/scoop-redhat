@@ -2,12 +2,12 @@
     "homepage": "https://developers.redhat.com/products/codeready-containers",
     "description": "Red Hat CodeReady Containers (CRC) brings a minimal OpenShift 4 cluster to your local computer.",
     "license": "Apache-2.0",
-    "version": "1.29.1",
+    "version": "1.30.1",
     "architecture": {
         "64bit": {
-            "url": "https://mirror.openshift.com/pub/openshift-v4/clients/crc/1.29.1/crc-windows-amd64.zip",
-            "hash": "a069a61fda679c92b0d516e26a935d366abdc0b43eb3e19a294069d9a2beca5f",
-            "extract_dir": "crc-windows-1.29.1-amd64"
+            "url": "https://mirror.openshift.com/pub/openshift-v4/clients/crc/1.30.1/crc-windows-amd64.zip",
+            "hash": "3074cad30ebe99f8d7dc91efaa0711b089866dfbc6c893362a28971237d437bc",
+            "extract_dir": "crc-windows-1.30.1-amd64"
         }
     },
     "bin": "crc.exe",
