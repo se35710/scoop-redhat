@@ -2,11 +2,11 @@
     "homepage": "https://www.openshift.com/",
     "description": "Red Hat OpenShift is a hybrid cloud, enterprise Kubernetes application platform, trusted by 2,000+ organizations. This manifest installs the OpenShift Client (OC).",
     "license": "Apache-2.0",
-    "version": "4.10.0-0.nightly-2021-09-16-064101",
+    "version": "4.10.0-0.nightly-2021-09-16-085406",
     "architecture": {
         "64bit": {
-            "url": "https://mirror.openshift.com/pub/openshift-v4/clients/ocp-dev-preview/4.10.0-0.nightly-2021-09-16-064101/openshift-client-windows-4.10.0-0.nightly-2021-09-16-064101.zip",
-            "hash": "eecde7e9c775f59c0a4d1209201a54d103be85d045b0494f6d84a26f03d38536"
+            "url": "https://mirror.openshift.com/pub/openshift-v4/clients/ocp-dev-preview/4.10.0-0.nightly-2021-09-16-085406/openshift-client-windows-4.10.0-0.nightly-2021-09-16-085406.zip",
+            "hash": "7a66ef2c6c1a6103e0d86d04631515ee662a5e8f8a529fe8353ae729a2f7d2a1"
         }
     },
     "bin": "oc.exe",
