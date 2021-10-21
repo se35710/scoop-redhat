@@ -12,7 +12,7 @@
     "bin": "oc.exe",
     "checkver": {
         "url": "https://mirror.openshift.com/pub/openshift-v3/clients/",
-        "regex": "<a href=\"([\\d.]+)/\">",
+        "regex": "<a href=\"([\\d.-]+)/\">",
         "reverse": true
     },
     "autoupdate": {
