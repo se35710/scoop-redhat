@@ -2,11 +2,11 @@
     "homepage": "https://developers.redhat.com/topics/camel-k",
     "description": "Camel K is a lightweight integration framework built from Apache Camel K that runs natively in the cloud on OpenShift. This manifest installs the client (Kamel)",
     "license": "Apache-2.0",
-    "version": "1.6.4",
+    "version": "1.6.5",
     "architecture": {
         "64bit": {
-            "url": "https://mirror.openshift.com/pub/openshift-v4/clients/camel-k/1.6.4/camel-k-client-1.6.4-windows-64bit.tar.gz",
-            "hash": "md5:102c082f1a2582cb8390c024dcf68b0c"
+            "url": "https://mirror.openshift.com/pub/openshift-v4/clients/camel-k/1.6.5/camel-k-client-1.6.5-windows-64bit.tar.gz",
+            "hash": "md5:af889dae146ddc27bfb9c9c479bba1e9"
         }
     },
     "bin": "kamel.exe",
