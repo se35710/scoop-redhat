@@ -2,11 +2,11 @@
     "homepage": "https://docs.openshift.com/rosa/rosa_cli/rosa-get-started-cli.html",
     "description": "A command-line utility for Red Hat OpenShift Service on AWS (ROSA) to create, update, manage, and delete Red Hat OpenShift Service on AWS clusters and resources.",
     "license": "Apache-2.0",
-    "version": "1.1.12",
+    "version": "1.2.0",
     "architecture": {
         "64bit": {
-            "url": "https://mirror.openshift.com/pub/openshift-v4/clients/rosa/1.1.12/rosa-windows.zip",
-            "hash": "d5443b905b601ce1346397fa70fb0ec3adcad30a031b43605853b79440bd7df5"
+            "url": "https://mirror.openshift.com/pub/openshift-v4/clients/rosa/1.2.0/rosa-windows.zip",
+            "hash": "b204e5c7164e585778dbf7d4a8e94df01bcb0b42f574bacd3df144e1480cdc89"
         }
     },
     "bin": "rosa.exe",
