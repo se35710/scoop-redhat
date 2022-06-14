@@ -2,11 +2,11 @@
     "homepage": "https://github.com/redhat-developer/kam",
     "description": "GitOps Application Manager: An opinionated CLI that generates the Kubernetes resources for managing your Tekton-based CI manifests, ArgoCD-based CD manifests and Application manifests in Git.",
     "license": "Apache-2.0",
-    "version": "0.0.45",
+    "version": "0.0.44",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/redhat-developer/kam/releases/download/v0.0.45/kam_windows_amd64.exe#/kam.exe",
-            "hash": "58a9b5fd456a9921b8b689d49301c65e282c845d630ba0998a7ef9204b7004b4"
+            "url": "https://github.com/redhat-developer/kam/releases/download/v0.0.44/kam_windows_amd64.exe#/kam.exe",
+            "hash": "d8f90a2eca13489a2a0aaa48afe2c2377d8430758149323359fa498718aaebd4"
         }
     },
     "bin": "kam.exe",
