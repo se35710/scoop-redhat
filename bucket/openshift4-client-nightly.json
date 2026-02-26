@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://mirror.openshift.com/pub/openshift-v4/clients/ocp-dev-preview/4.22.0-ec.2/openshift-client-windows-4.22.0-ec.2.zip",
-            "hash": "sha256:placeholder"
+            "hash": "600ee84e00c1bca7277575a8e6c1634efd7437fcbabb5d4ac6cc9082156b16b3"
         }
     },
     "bin": "oc.exe",

@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/openshift/okd/releases/download/4.21.0-okd-scos.7/openshift-client-windows-4.21.0-okd-scos.7.zip",
-            "hash": "f29b2eba6ccc70f6dfccb4a6cef85ad1bcde64d83fc350284055198830725342"
+            "hash": "7dc2b57b76268084f4719f520399cf4e3232a1a642db30d01ed41cf34e1b04bc"
         }
     },
     "bin": "oc.exe",
