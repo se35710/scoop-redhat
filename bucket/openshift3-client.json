@@ -2,18 +2,38 @@
     "homepage": "https://www.openshift.com/",
     "description": "Red Hat OpenShift is a hybrid cloud, enterprise Kubernetes application platform, trusted by 2,000+ organizations. This manifest installs the OpenShift Client (OC).",
     "license": "Apache-2.0",
-    "version": "3.8.45",
+    "version": "3.11.1938-1",
     "architecture": {
         "64bit": {
-            "url": "https://mirror.openshift.com/pub/openshift-v3/clients/3.8.45/windows/oc.zip",
-            "hash": "88f2c505944fb81d29c628f13acc82adb20630e05cd1db100d4c1df7021b365b"
+            "url": "https://mirror.openshift.com/pub/openshift-v3/clients/3.11.1938-1/windows/oc.zip",
+            "hash": "9167892a140a9c6b8628db52b31b117a71da51acd69895ada8e1be9fd5b08a01"
         }
     },
     "bin": "oc.exe",
     "checkver": {
-        "url": "https://mirror.openshift.com/pub/openshift-v3/clients/",
-        "regex": "<a href=\"([\\d.-]+)/\">",
-        "reverse": true
+        "script": [
+            "$allVersions = @()",
+            "$offset = 0",
+            "$maxPages = 10",
+            "$pageCount = 0",
+            "do {",
+            "    $url = \"https://mirror.openshift.com/pub/openshift-v3/clients/?C=M;O=D;F=0;entry=$offset\"",
+            "    $page = Invoke-WebRequest -Uri $url -UseBasicParsing",
+            "    $versions = $page.Content | Select-String -Pattern '<a href=\"([\\d.-]+)/\">' -AllMatches | ForEach-Object { $_.Matches } | ForEach-Object { $_.Groups[1].Value }",
+            "    if ($versions.Count -eq 0) { break }",
+            "    $newVersions = $versions | Where-Object { $_ -notin $allVersions }",
+            "    if ($newVersions.Count -eq 0) { break }",
+            "    $allVersions += $newVersions",
+            "    $offset += 1000",
+            "    $pageCount++",
+            "} while ($pageCount -lt $maxPages)",
+            "$latest = $allVersions | Sort-Object {",
+            "    $parts = $_ -split '[.-]'",
+            "    [int]$parts[0] * 1000000 + [int]$parts[1] * 10000 + [int]$parts[2]",
+            "} -Descending | Select-Object -First 1",
+            "Write-Output $latest"
+        ],
+        "regex": "([\\d.-]+)"
     },
     "autoupdate": {
         "architecture": {
