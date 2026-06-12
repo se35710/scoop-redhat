@@ -2,11 +2,11 @@
     "homepage": "https://podman.io",
     "description": "Podman is a daemonless container engine for developing, managing, and running OCI Containers. This manifest installs Podman for Windows.",
     "license": "Apache-2.0",
-    "version": "5.8.2",
+    "version": "5.8.3",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/containers/podman/releases/download/v5.8.2/podman-installer-windows-amd64.msi",
-            "hash": "eda54f26f9695d198d9a679fa45ae24ba35b78444f432b5fe0c122c5a3624c57"
+            "url": "https://github.com/containers/podman/releases/download/v5.8.3/podman-installer-windows-amd64.msi",
+            "hash": "2c5cffb2f023ae122d52d7f4b30bb677adb933fb7aa7ad708d3d544f8d6fe13a"
         }
     },
     "extract_dir": "PFiles64\\Podman",
