@@ -2,11 +2,11 @@
     "homepage": "https://coreos.github.io/butane/",
     "description": "Butane translates human-readable Butane Configs into machine-readable Ignition Configs for provisioning operating systems that use Ignition.",
     "license": "Apache-2.0",
-    "version": "0.28.0-1",
+    "version": "0.29.0-1",
     "architecture": {
         "64bit": {
-            "url": "https://mirror.openshift.com/pub/openshift-v4/clients/butane/v0.28.0-1/butane-windows-amd64.exe#/butane.exe",
-            "hash": "87ea0ce5c7704f350259cc919689c81092cb7175300607460acd2ac37a3fe36b"
+            "url": "https://mirror.openshift.com/pub/openshift-v4/clients/butane/v0.29.0-1/butane-windows-amd64.exe#/butane.exe",
+            "hash": "fac399770d930df5a41e23dc3b00742b8e3eb328d520a5759f806a09c469524e"
         }
     },
     "bin": "butane.exe",
